@@ -2,10 +2,14 @@ LIST OF MEMBERS FOR TEAM 114
 
 Abbey Rose Mclean
 
-Jason/Yulin Chen
+Jason/Yulin Chen  Hi guys I`m Jason
 
 Sarah Nguyen
 
+<<<<<<< HEAD
 Zach Giofkou
 
 <Hello world>
+=======
+Zach Giofkou hooray
+>>>>>>> origin/master
