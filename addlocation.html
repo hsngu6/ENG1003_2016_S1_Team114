@@ -27,7 +27,35 @@
           <main class="mdl-layout__content">
             <div class="content-grid mdl-grid">
               <div class="mdl-cell">
-                <!--   Main page content here:   -->  
+                <!--   Main page content here:   -->
+                <div align="center">      
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield" >
+        <input id="location" class="mdl-textfield__input" type="text" onchange="URL()" >
+        <label class="mdl-textfield__label" for="location"  >Enter a location</label>
+      </div>
+    </form>
+          
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield" >
+        <input id="nickname" class="mdl-textfield__input" type="text" >
+        <label class="mdl-textfield__label" for="nickname"  >Enter a nickname</label>
+      </div>
+    </form>  
+            
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="addlocation()">
+  SUBMIT LOCATION
+</button>
+</div> 
+<div align="center"> 
+    
+<div id="googlemaps"></div>
+    
+
+
+<div class="owesome">    Team 114 - Weather App - Add location  </div>        
+</div>  
+</div>
 
               </div>
             </div>
